@@ -1,0 +1,16 @@
+:root{
+    --cor01: #DED9D3;
+    --cor02: #B3AFAA;
+    --cor03: #5E5C5A;
+    --cord01: #E3C494;
+    --cord02: #663F06;
+}
+
+body{
+    background-color: var(--cor01);
+    font-family: sans-serif;
+}
+h1::after{
+    content: '⬅️título sigerido';
+    font-size: 14px;
+}
