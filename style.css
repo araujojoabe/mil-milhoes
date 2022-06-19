@@ -61,7 +61,7 @@ section p{
     line-height: 4em;
     padding-top: 40px;
     padding-bottom: 40px;
-    font-size: clamp(0.9rem, 4vw, 1.5rem);
+    font-size: clamp(0.9rem, 4.8vw, 1.5rem);
     text-align: center;
     color: var(--cord02);
     font-weight: bold;
