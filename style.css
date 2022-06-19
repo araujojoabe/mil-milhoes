@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
 :root{
     --cor01: #DED9D3;
     --cor02: #B3AFAA;
@@ -7,10 +14,89 @@
 }
 
 body{
-    background-color: var(--cor01);
     font-family: sans-serif;
+    background-color: var(--cor01);
 }
-h1::after{
-    content: '⬅️título sigerido';
-    font-size: 14px;
+
+main{
+    max-width: 650px;
+    margin: auto;
+}
+
+
+/*header*/
+header{
+    background-color: var(--cor02);
+}
+
+header h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+header p{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+/*section*/
+
+section p{
+    line-height: 4em;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 1.3em;
+    text-align: center;
+    color: var(--cord02);
+    font-weight: bold;
+    font-family: 'Kalam', cursive;
+}
+
+/*img01*/
+section#img01{
+    background-image: url(imagens/img01.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px;
+}
+
+#img01 p{
+    background-color: #0000002f;
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+    border-radius: 25px 0px;
+    box-shadow: inset 2px 2px 5px #0000003a;
+}
+
+/*img02*/
+#img02{
+    background-image: url(imagens/img04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    background-position: center center;
+    background-attachment: fixed;
+    box-shadow: inset 3px 3px 10px #00000085;
+}
+
+#img02 p{
+    padding-top: 130px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/*img03*/
+
+#img03{
+    background-image: url(imagens/img03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#img03 p{
+    line-height: 2em;
+    font-size: 2em;
 }
