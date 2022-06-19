@@ -1,4 +1,12 @@
+@font-face {
+    font-family: 'pfinal';
+    src: url(../fotograami-hearts01.ttf);
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
 
 *{
     padding: 0px;
@@ -9,7 +17,7 @@
     --cor01: #DED9D3;
     --cor02: #B3AFAA;
     --cor03: #5E5C5A;
-    --cord01: #E3C494;
+    --cord01: #db942a;
     --cord02: #663F06;
 }
 
@@ -32,6 +40,9 @@ header{
 header h1{
     text-align: center;
     padding-top: 20px;
+    font-family: 'Rubik Moonrocks', cursive;
+    color: var(--cord02);
+
 }
 
 header p{
@@ -51,6 +62,11 @@ section p{
     color: var(--cord02);
     font-weight: bold;
     font-family: 'Kalam', cursive;
+}
+
+#pfinal p{
+    font-size: 6em;
+    font-family: 'pfinal', cursive;
 }
 
 /*img01*/
@@ -99,4 +115,61 @@ section#img01{
 #img03 p{
     line-height: 2em;
     font-size: 2em;
+}
+
+/*audio*/
+
+.audio{
+    position: relative;
+    max-width: 650px;
+    background-color: var(--cord01);
+    height: 250px;
+    margin: auto;
+    margin-top: 400px;
+}
+
+.audio audio{
+    width: 180px;
+    height: 25px;
+    position: absolute;
+    left: 10px;
+    top: 50px;
+}
+
+.audio p{
+    position: absolute;
+    top: 15px;
+    left: 5px;
+}
+
+.links{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 150px;
+}
+
+.links p{
+    position: absolute;
+    top: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#perfil{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+#yout{
+    position: absolute;
+    bottom: 5px;
+    right: 120px;
+    width: 30px;
+    height: 30px;
+    background-color: blue;
 }
