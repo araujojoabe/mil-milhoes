@@ -144,7 +144,7 @@ section#img01{
 }
 
 #audioperfil audio{
-    width: clamp(8rem, 20vw, 14rem);
+    width: clamp(10em, 20vw, 30em);
     height: 20px;
     padding: 10px;
 }
