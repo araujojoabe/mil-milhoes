@@ -144,9 +144,12 @@ section#img01{
 }
 
 #audioperfil audio{
-    width: clamp(10em, 20vw, 30em);
-    height: 20px;
+    display: block;
+    width: 90%;
     padding: 10px;
+    margin: auto;
+    background-color: #663F06;
+    height: 20px;
 }
 
 #autor{
