@@ -127,7 +127,7 @@ section#img01{
     position: relative;
     max-width: 650px;
     background-color: var(--cord01);
-    height: 350px;
+    height: 280px;
     margin: auto;
 }
 /*audioperfil*/
@@ -136,7 +136,6 @@ section#img01{
 
     max-width: 50%;
     height: 100%;
-    background-color: blueviolet;
 }
 
 #ouca{
@@ -154,6 +153,7 @@ section#img01{
 }
 
 #autor{
+    margin-top: 20px;
     padding: 10px;
 }
 
@@ -162,6 +162,7 @@ section#img01{
     width: 110px;
     height: 110px;
     background-color: chartreuse;
+
 }
 
 
@@ -177,5 +178,21 @@ section#img01{
     background-color: blue;
 }
 
+/*youtube*/
+#yout{
+    width: 50px;
+}
+
+/*facebook*/
+
+#facebook{
+    width: 50px;
+}
+
+/*instagran*/
+
+#instagran{
+    width: 50px;
+}
 
 
