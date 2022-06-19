@@ -129,7 +129,7 @@ section#img01{
 
 .final{
     position: relative;
-    max-width: 650px;
+    max-width: 600px;
     background-color: var(--cor02);
     height: 240px;
     margin: auto;
@@ -189,24 +189,22 @@ section#img01{
 #plink{
     position: absolute;
     bottom: 2px;
-    left: 140px;
-    width: 40vw;
+    left: 120px;
+    width: 35vw;
     max-width: 300px;
     height: 118px;
     font-size: clamp(0.9rem, 4vw, 1.5rem);
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#plink{
     text-align: center;
 }
 
 /*youtube*/
 #yout{
-    padding-top: 85px;
-    margin-left: 120px;
+    margin-bottom: -4px;
+    padding-top: 90px;
+    margin-left: 60%;
     display: block;
     width: 50px;
 }
@@ -215,7 +213,7 @@ section#img01{
 
 #facebook{
     padding-top: 0px;
-    margin-left: 120px;
+    margin-left: 60%;
     display: block;
     width: 50px;
 }
@@ -224,7 +222,7 @@ section#img01{
 
 #instagran{
     padding-top: 0px;
-    margin-left: 120px;
+    margin-left: 60%;
     display: block;
     width: 50px;
 }
