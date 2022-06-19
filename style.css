@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
 @font-face {
     font-family: 'pfinal';
     src: url(fonts/fotograami-hearts01.ttf);
@@ -5,7 +7,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
 
 
 *{
@@ -38,9 +40,11 @@ header{
 }
 
 header h1{
+    font-size: 4em;
     text-align: center;
     padding-top: 20px;
     font-family: 'Rubik Moonrocks', cursive;
+    font-weight: 1000;
     color: var(--cord02);
 
 }
@@ -141,6 +145,8 @@ section#img01{
 
 #ouca{
     padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 #audioperfil audio{
@@ -154,15 +160,17 @@ section#img01{
 }
 
 #autor{
-    margin-top: 0px;
+    margin-top: 5px;
     padding: 10px;
 }
 
 #audioperfil img{
+    position: absolute;
+    bottom: 5px;
     margin-left: 10px;
-    width: 110px;
-    height: 110px;
-    background-color: chartreuse;
+    width: 100px;
+    height: 100px;
+    background-color: var(--cor02);
 
 }
 
@@ -178,10 +186,27 @@ section#img01{
     height: 100%;
 }
 
+#plink{
+    position: absolute;
+    bottom: 2px;
+    left: 140px;
+    width: 40vw;
+    max-width: 300px;
+    height: 118px;
+    font-size: clamp(0.9rem, 4vw, 1.5rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#plink{
+    text-align: center;
+}
+
 /*youtube*/
 #yout{
-    padding-top: 75px;
-    margin-left: 0px;
+    padding-top: 85px;
+    margin-left: 120px;
     display: block;
     width: 50px;
 }
@@ -189,8 +214,8 @@ section#img01{
 /*facebook*/
 
 #facebook{
-    padding-top: 5px;
-    margin-left: 0px;
+    padding-top: 0px;
+    margin-left: 120px;
     display: block;
     width: 50px;
 }
@@ -198,10 +223,19 @@ section#img01{
 /*instagran*/
 
 #instagran{
-    padding-top: 5px;
-    margin-left: 0px;
+    padding-top: 0px;
+    margin-left: 120px;
     display: block;
     width: 50px;
 }
 
 
+
+
+/*footer*/
+
+footer{
+    background-color: var(--cor03);
+    text-align: center;
+    padding: 5px;
+}
