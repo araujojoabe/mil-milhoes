@@ -126,9 +126,10 @@ section#img01{
 .final{
     position: relative;
     max-width: 650px;
-    background-color: var(--cord01);
-    height: 280px;
+    background-color: var(--cor02);
+    height: 240px;
     margin: auto;
+    border-radius: 20px 20px 0px 0px;
 }
 /*audioperfil*/
 
@@ -153,7 +154,7 @@ section#img01{
 }
 
 #autor{
-    margin-top: 20px;
+    margin-top: 0px;
     padding: 10px;
 }
 
@@ -175,23 +176,31 @@ section#img01{
     top: 0px;
     width: 50%;
     height: 100%;
-    background-color: blue;
 }
 
 /*youtube*/
 #yout{
+    padding-top: 75px;
+    margin-left: 0px;
+    display: block;
     width: 50px;
 }
 
 /*facebook*/
 
 #facebook{
+    padding-top: 5px;
+    margin-left: 0px;
+    display: block;
     width: 50px;
 }
 
 /*instagran*/
 
 #instagran{
+    padding-top: 5px;
+    margin-left: 0px;
+    display: block;
     width: 50px;
 }
 
