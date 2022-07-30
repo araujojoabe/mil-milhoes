@@ -238,7 +238,11 @@ section#img01{
 footer{
     background-color: var(--cor03);
     text-align: center;
-    padding: 10px;
+    padding: 3px;
+}
+
+footer p{
+    font-size: .7em;
 }
 
 #pessoal{
@@ -250,6 +254,6 @@ footer{
 
 #pessoal:hover{
     background-color: var(--cord01);
-    padding: 3px 5px;
+    padding: 3px;
     border-radius: 5px;
 }
